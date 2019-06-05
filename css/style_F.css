@@ -1,0 +1,46 @@
+#wrapper {
+    width: 800px;
+    outline: 1px solid #cccccc;
+    padding: 10px; 
+    margin: 0 auto;
+}
+
+#header {
+    height: 77px;
+    background-color: darkorange;
+    margin-bottom: 12px;  
+}
+
+#sidebarL {
+    _height: 77px;
+    width: 150px;
+    float: left;
+    background-color: rgb(212, 208, 204);
+    margin-bottom: 12px;  
+}
+
+#sidebarR {
+    _height: 77px;
+    width: 150px;
+    float: right;
+    background-color: rgb(212, 208, 204);
+    margin-bottom: 12px;  
+}
+
+#content {
+    _height: 77px;
+    width: 480px;
+    background-color: rgb(110, 101, 187);
+    margin:0 auto 12px auto;
+    
+}
+
+#footer {
+    height: 77px;
+    background-color: rgb(17, 17, 17);
+    margin-bottom: 12px;  
+}
+
+.clear {
+    clear: both;
+}

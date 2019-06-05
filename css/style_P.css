@@ -1,0 +1,27 @@
+body {
+    background-color: #D2D2D2;
+    font: 11px verdana grey;
+}
+#wrapper {
+    width: 650px; 
+    background-color: #f4f4f4; 
+    margin: 30px auto;
+}
+
+#header {
+    height: 77px;
+    background-image: url(../images/redHeader.png);
+     
+}
+
+
+
+#content {
+   padding: 20px 30px;     
+}
+
+#new {
+    position: absolute;
+     top: 0px;
+     left:0px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/style_form.css" type="text/css">    
+<title>Документ без названия</title>
+</head>
+<body>
+    <div id="wrapper">
+    <form action="formdata.php" method="POST" name="forml">
+        <fieldset>
+            <legend> Ввод личных данных</legend>
+            <p class="question"><label for="name">Введите Имя:</label></p>
+            <p><input class="input" type="text" name="name" id="name" size="50" maxlength="10"></p>
+            <p class="question"><label for="password">Введите пароль:</label></p>
+            <p><input class="input" type="password" name="password" id="password" size="50" maxlength="10"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Вопросы</legend>
+        <p class="question">Экономите время?  <label>Yes<input type="radio" name="time" value="yes" checked></label><label>   No<input type="radio" name="time" value="no"></label></p>
+        <p class="question">Какими инструментами пользуетесь? </p>
+        <p><label><input type="checkbox" name="ez">Ежедневник</label>
+        <label><input type="checkbox" name="ez2">Хронометраж</label>
+        <label><input type="checkbox" name="ez3">Другое</label></p>
+        <p class="question">Сколько спите?</p>   
+        <p>
+            <select name="sleep">
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option selected>8</option>
+                <option>8+</option>
+            </select>
+        </fieldset>
+        <p class="question tp">Поделитесь своими наработками</p>
+        <p><textarea name="text" cols="30" rows="10">заданный текст...</textarea></p>
+        <p><input class="buttn" type="reset" name="reset" value="Сброс"></p>
+        <p><input class="buttn" type="submit" name="submit" value="Отправить"></p>
+        <p><input type="image" src="images/blueButton.jpg" name="imageButton"></p>
+        <p><input type="button" name="rfdss" value="Кнопка"></p>
+
+        
+
+    </form>
+    </div>
+
+
+
+</body>
+<footer>© e.a.abr</footer>
+
+</html>
+
